@@ -34,7 +34,7 @@ $(OUTPUT):$(OBJ_FILES) Makefile
 
 # specifies how the object files are compiled from cpp files
 .cpp.o:
-	$(CXX) -c $(CXX_FLAGS) $(INVLUDES) $< -o $@
+	$(CXX) -c $(CXX_FLAGS) $(INCLUDES) $< -o $@
 
 # typing 'make clean' will remove all intermediate build files
 clean:
